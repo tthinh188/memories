@@ -1,0 +1,33 @@
+.post {
+    background-color: whitesmoke;
+    padding: 10px 20px;
+    width: 40vw;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.post_time {
+    color: gray;
+    margin-top: -15px;
+    padding-bottom: 15px;
+    font-size: 14px;
+    border-bottom: 1px solid lightgray;
+}
+
+.post_image {
+    object-fit: contain;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.post_message {
+    border-top: 1px solid lightgray;
+    padding-top: 20px;
+    display: flex;
+    align-items: baseline;
+}
+
+.post_message h3 {
+    white-space: nowrap;
+    padding-right: 10px;
+}
