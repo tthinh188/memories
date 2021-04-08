@@ -27,7 +27,9 @@
     align-items: baseline;
 }
 
-.post_message h3 {
+.post_message span {
     white-space: nowrap;
     padding-right: 10px;
+    font-weight: bold;
+    font-size: 1.3rem;
 }
