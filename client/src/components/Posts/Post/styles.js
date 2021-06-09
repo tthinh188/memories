@@ -6,7 +6,6 @@ export default makeStyles({
     paddingTop: '56.25%',
     backgroundColor: 'rgba(0, 0, 0, 0.5)',
     backgroundBlendMode: 'darken',
-    cursor: 'pointer',
   },
   border: {
     border: 'solid',
@@ -21,10 +20,6 @@ export default makeStyles({
     borderRadius: '15px',
     height: '100%',
     position: 'relative',
-    transition: '0.5s',
-    '&:hover': {
-      transform: 'scale(1.03)',
-    },
   },
   overlay: {
     position: 'absolute',
@@ -53,5 +48,9 @@ export default makeStyles({
     padding: '0 16px 8px 16px',
     display: 'flex',
     justifyContent: 'space-between',
+  },
+  cardAction: {
+    display: 'block',
+    textAlign: 'initial',
   },
 });
